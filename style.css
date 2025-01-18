@@ -43,7 +43,7 @@ ul li a{
 .header-container{
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     gap: 200px;
 }
 .text-container{
@@ -54,6 +54,13 @@ ul li a{
 }
 .btn-primary i{
     margin-left: 5px;
+}
+/* sponsor section */
+.sponsor{
+    max-width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin: 50px auto;
 }
 
 @media screen and (max-width: 576px) {
