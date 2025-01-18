@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* shared coding */
+.display-flex{
+    display: flex;
+}
+.primary-color{
+    color: #000000;
+}
+.gray-light{
+    color: #5a5959;
+}
+.btn-primary{
+    background-color: #E02C6D;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+/* header part */
+.navbar{
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.list-title{
+    font-size: 1rem;
+    list-style: none;
+    margin-left: 30px;
+}
+.list-title a{
+    color:  #000000;
+}
+ul li a{
+    text-decoration: none;
+}
+.header-container{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 200px;
+}
+.text-container{
+    max-width: 400px;
+}
+.bg-container{
+    background-image: url(images/Circle\ design.svg);
+}
+.btn-primary i{
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .header-container{
+        flex-direction: column-reverse;
+    }
+    .header-container img{
+        width: 100%;
+    }
+}
