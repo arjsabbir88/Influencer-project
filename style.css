@@ -167,9 +167,13 @@ ul li a{
     .header-container img{
         width: 100%;
     }
+    .text-container{
+        text-align: center;
+    }
     .sponsor{
         grid-template-columns: repeat(4,1fr);
-        margin-left: 1rem;
+        justify-content: center;
+        /* margin-left: 1rem; */
     }
     .sponsor img,
     .featured-section{
@@ -178,8 +182,9 @@ ul li a{
     .sponsor :nth-child(5),
     .sponsor :nth-child(6),
     .sponsor :nth-child(7){
-        margin-left: 12rem;
-        margin-top: 1.2rem;
+        position: relative;
+        left: 3rem;
+        top: 1rem;
     }
     .popular-container{
         width: 90%;
@@ -200,8 +205,11 @@ ul li a{
     .header-container img{
         width: 100%;
     }
+    .text-container{
+        text-align: center;
+    }
     .sponsor{
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
         grid-template-columns: repeat(4,1fr);
     }
     .sponsor img,
@@ -211,8 +219,9 @@ ul li a{
     .sponsor :nth-child(5),
     .sponsor :nth-child(6),
     .sponsor :nth-child(7){
-        margin-left: 12rem;
-        margin-top: 1.2rem;
+        position: relative;
+        left: 3rem;
+        top: 1rem;
     }
     .popular-container{
         width: 90%;
@@ -233,6 +242,9 @@ ul li a{
     .header-container img{
         width: 100%;
     }
+    .text-container{
+        text-align: center;
+    }
     .sponsor{
         margin-left: 1rem;
         grid-template-columns: repeat(4,1fr);
@@ -244,8 +256,9 @@ ul li a{
     .sponsor :nth-child(5),
     .sponsor :nth-child(6),
     .sponsor :nth-child(7){
-        margin-left: 12rem;
-        margin-top: 1.2rem;
+        position: relative;
+        left: 3rem;
+        top: 1rem;
     }
     .popular-container{
         width: 90%;
