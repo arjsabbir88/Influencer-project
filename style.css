@@ -122,6 +122,36 @@ ul li a{
     padding: 1rem 2.7rem;
     cursor: pointer;
 }
+.footer{
+    width: 100%;
+    background-color: #0A0826;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5rem; */
+}
+.footer-content{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.social-icon{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.icon{
+    height: 2rem;
+    width: 2rem;
+    background-color: #3d3c3c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
 @media screen and (max-width: 576px) {
     .navbar{
         flex-direction: column;
